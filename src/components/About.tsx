@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
@@ -19,20 +19,37 @@ const About = () => {
           <div className="glass-card rounded-2xl p-8 md:p-12 space-y-8 animate-scale-in">
             <div className="space-y-6 text-lg text-foreground/90 leading-relaxed">
               <p>
-                I'm an AI & ML undergraduate with a strong passion for building intelligent systems that solve real-world problems. 
-                My focus lies in <span className="text-primary font-semibold">AI-driven medical imaging and automation</span>, 
-                where I develop cutting-edge deep learning models for disease detection, segmentation, and analysis.
+                I'am   an AI & ML undergraduate passionate about building
+                intelligent systems that tackle real-world challenges. My work
+                focuses on{" "}
+                <span className="text-primary font-semibold">
+                  AI-driven medical imaging and automation
+                </span>
+                , where I design deep learning models for disease detection,
+                segmentation, and analysis.
               </p>
 
               <p>
-                With hands-on experience in developing <span className="text-accent font-semibold">CNN and transformer-based models</span>, 
-                I've achieved significant results in retinal disease classification and glaucoma segmentation. 
-                I'm also proficient in full-stack development, creating production-ready applications with modern frameworks.
+                With hands-on experience in developing{" "}
+                <span className="text-accent font-semibold">
+                  CNN and transformer-based models
+                </span>
+                , I have delivered impactful results in retinal disease
+                classification and glaucoma segmentation. I am also skilled in{" "}
+                <span className="text-accent font-semibold">
+                  full-stack development
+                </span>
+                , building production-ready applications using modern
+                frameworks.
               </p>
 
               <p>
-                Currently exploring <span className="gradient-text font-semibold">Vision Transformers and Generative AI</span> for 
-                healthcare applications, I'm always eager to learn new technologies and push the boundaries of what's possible with AI.
+                Currently exploring{" "}
+                <span className="gradient-text font-semibold">
+                  Emotional Intelligence and Generative AI
+                </span>{" "}
+                , I am constantly eager to learn new
+                technologies and push the boundaries of what’s possible with AI.
               </p>
             </div>
 
@@ -64,9 +81,9 @@ const About = () => {
                 </div>
                 <h3 className="font-semibold text-lg">Innovation</h3>
                 <p className="text-sm text-muted-foreground">
-                  Exploring Gen AI & Transformers
+                  Exploring Gen AI 
                 </p>
-              </div>
+              </div>  
             </div>
           </div>
         </div>

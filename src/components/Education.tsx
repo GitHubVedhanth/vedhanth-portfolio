@@ -9,8 +9,6 @@ const education = [
     cgpa: "9.18/10",
     highlights: [
       "Focus on Machine Learning and Artificial Intelligence",
-      "Coursework: Deep Learning, Computer Vision, Natural Language Processing",
-      "Active member of AI & ML research initiatives"
     ]
   },
   {

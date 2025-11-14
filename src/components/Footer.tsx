@@ -45,11 +45,9 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-center space-y-2">
-            <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-              Built with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> using React & Tailwind CSS
-            </p>
+           
             <p className="text-sm text-muted-foreground">
-              © {currentYear} G. Vedhanth. All rights reserved.
+              © {currentYear} Vedhanth. All rights reserved.
             </p>
           </div>
         </div>

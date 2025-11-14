@@ -3,8 +3,8 @@ const skills = {
   "ML/DL Frameworks": ["TensorFlow", "PyTorch", "Keras", "scikit-learn"],
   "Data & Analysis": ["NumPy", "pandas", "Matplotlib", "Seaborn"],
   "Web Development": ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
-  "Databases": ["MongoDB", "MySQL", "Mongoose"],
-  "Tools & Platforms": ["Git", "GitHub", "Docker", "Streamlit", "Flask", "FastAPI"],
+  "Databases": ["MongoDB", "MySQL", ],
+  "Tools & Platforms": ["Git", "GitHub", "Docker", "Streamlit", "Flask", ],
   "Others": ["OpenCV", "REST APIs", "JWT Auth", "Socket.io", "Cloudinary"]
 };
 
@@ -52,7 +52,7 @@ const Skills = () => {
               <span>🚀</span> Currently Exploring
             </h3>
             <div className="flex flex-wrap gap-3">
-              {["Vision Transformers", "Generative AI", "Healthcare AI Applications", "Advanced Medical Imaging"].map((topic) => (
+              {["Emotional Intelligence", "Generative AI", "Healthcare AI Applications"].map((topic) => (
                 <span
                   key={topic}
                   className="px-4 py-2 bg-gradient-to-r from-primary/10 to-accent/10 text-foreground rounded-full border border-accent/30 font-medium hover:scale-105 transition-transform"

@@ -63,7 +63,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://github.com/vedhanth-goje"
+                  href="https://github.com/GitHubVedhanth"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors group"
