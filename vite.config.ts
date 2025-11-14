@@ -8,8 +8,15 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+
+    // ➜ ADD THIS
+    allowedHosts: [
+      "vedhanth-portfolio.onrender.com"
+    ],
   },
+
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
